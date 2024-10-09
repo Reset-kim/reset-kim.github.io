@@ -8,7 +8,7 @@ timezone:          Asia/Seoul
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink:         /posts/:year/:title
 
 kramdown:
   auto_ids: true
@@ -28,6 +28,9 @@ user_description: >
   My primary research interests lie in finding, analyzing, and patching software vulnerabilities.
   In particular, I am interested in these areas: blockchain, web, and system security.
   Also, I've found hundreds of high-impact vulnerabilities while conducting security auditing projects so far.
+user_post_description: >
+  I am a security researcher who is interested in offensive cybersecurity, with a focus on blockchain, web, and system security.
+  My primary research interests lie in finding, analyzing, and patching software vulnerabilities.
 email: reset@theori.io
 # twitter: lorem_ipsum
 github: Reset-Kim

@@ -246,3 +246,543 @@ a.read-more {
     border-color: #5f99cf;
   }
 }
+
+// post-content (ref. https://github.com/willianjusten/will-jekyll-template/blob/e2f14dc24485ac7af90c58bf29ddf1e4d032e517/assets/css/main.css)
+.post-content {
+  padding: 2.5rem 0;
+}
+
+.post-content img {
+  max-width: 100%;
+  margin: 1.875rem auto;
+  display: block
+}
+
+.post-content p,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content ul,
+.post-content ol,
+.post-content .tags,
+.post-content iframe,
+.post-content table {
+  *zoom: 1;
+  width: auto;
+  max-width: 50rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 0 1.25rem;
+  margin: 0 auto 1.875rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 2;
+  letter-spacing: .01rem;
+}
+
+.post-content p:before,
+.post-content h1:before,
+.post-content h2:before,
+.post-content h3:before,
+.post-content h4:before,
+.post-content ul:before,
+.post-content ol:before,
+.post-content .tags:before,
+.post-content iframe:before,
+.post-content p:after,
+.post-content h1:after,
+.post-content h2:after,
+.post-content h3:after,
+.post-content h4:after,
+.post-content ul:after,
+.post-content ol:after,
+.post-content .tags:after,
+.post-content iframe:after {
+  content: '';
+  display: table
+}
+
+.post-content p:after,
+.post-content h1:after,
+.post-content h2:after,
+.post-content h3:after,
+.post-content h4:after,
+.post-content ul:after,
+.post-content ol:after,
+.post-content .tags:after,
+.post-content iframe:after {
+  clear: both
+}
+
+@media only screen and (min-width:37.5rem) {
+
+  .post-content p,
+  .post-content h1,
+  .post-content h2,
+  .post-content h3,
+  .post-content h4,
+  .post-content ul,
+  .post-content ol,
+  .post-content .tags,
+  .post-content iframe {
+      font-size: 100%;
+  }
+}
+
+.post-content p,
+.post-content li {
+  color: #333;
+}
+
+.post-content p code,
+.post-content li code {
+  color: #3085f4
+}
+
+.post-content a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #0562dc;
+  text-decoration: none;
+  border-bottom: 2px solid #0562dc
+}
+
+.post-content iframe {
+  margin-top: 1.875rem;
+  width: 100%
+}
+
+.post-content #twitter-widget-0 {
+  margin: auto !important
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: normal
+}
+
+.post-content h1 {
+  font-size: 1.875rem;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .post-content h1 {
+      font-size: 2.813rem
+  }
+}
+
+.post-content h2 {
+  font-size: 1.375rem;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .post-content h2 {
+      font-size: 2.188rem
+  }
+}
+
+.post-content h3 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .post-content h3 {
+      font-size: 1.563rem
+  }
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 2.5rem
+}
+
+.post-content ul.post-list {
+  padding: 0;
+}
+
+@media only screen and (max-width:37.5rem) {
+  .post-content ul.post-list {
+      padding: 0 1.25rem
+  }
+}
+
+.post-content blockquote {
+  *zoom: 1;
+  width: auto;
+  max-width: 45.625rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  border-left: .313rem solid #0562dc;
+  padding: 0 1.875rem;
+  margin: 3.125rem auto;
+}
+
+.post-content blockquote:before,
+.post-content blockquote:after {
+  content: '';
+  display: table
+}
+
+.post-content blockquote:after {
+  clear: both
+}
+
+@media only screen and (max-width:37.5rem) {
+  .post-content blockquote {
+      width: 70%
+  }
+}
+
+.post-content blockquote p {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+@media only screen and (max-width:37.5rem) {
+  .post-content blockquote p {
+      font-size: 1.125rem;
+      line-height: 1.5;
+      padding: 0
+  }
+}
+
+.post-content hr {
+  *zoom: 1;
+  width: auto;
+  max-width: 47.5rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  border: 1px solid #f2f2f2;
+  margin: 50px auto
+}
+
+.post-content hr:before,
+.post-content hr:after {
+  content: '';
+  display: table
+}
+
+.post-content hr:after {
+  clear: both
+}
+
+// Tables (manual)
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.post-content th, .post-content td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.post-content th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.post-content tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.post-content tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Optional: Style for smaller devices */
+@media (max-width: 600px) {
+  .post-content th, .post-content td {
+    padding: 8px 10px;
+  }
+}
+
+
+// code highlight (ref. https://github.com/willianjusten/will-jekyll-template/blob/e2f14dc24485ac7af90c58bf29ddf1e4d032e517/assets/css/main.css)
+@media only screen and (max-width:37.5rem) {
+  .post-list .entry-date {
+      display: none
+  }
+}
+
+pre {
+  background: #222;
+  width: 100%;
+  padding: 1.25rem 0;
+  color: #fff;
+  margin: 1.875rem 0;
+  font-size: .875rem;
+  white-space: pre-wrap;
+}
+
+@media only screen and (min-width:37.5rem) {
+  pre {
+      font-size: 1rem;
+      padding: 2.5rem 0;
+      margin: 3.125rem 0
+  }
+}
+
+pre code {
+  *zoom: 1;
+  width: auto;
+  max-width: 50rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding: 0 1.25rem;
+}
+
+pre code:before,
+pre code:after {
+  content: '';
+  display: table
+}
+
+pre code:after {
+  clear: both
+}
+
+@media only screen and (max-width:37.5rem) {
+  pre code {
+      overflow-x: hidden;
+  }
+}
+
+pre span {
+  line-height: 1.5rem;
+  font-family: 'Monaco', 'Consolas', 'Menlo', monospace
+}
+
+.highlight {
+  margin: 0;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .highlight {
+      word-wrap: break-word
+  }
+}
+
+.highlight .hll {
+  background-color: #333
+}
+
+.highlight .c,
+.highlight .cm,
+.highlight .cp,
+.highlight .c1,
+.highlight .cs {
+  color: #75715e
+}
+
+.highlight .err {
+  color: #960050;
+  background-color: #1e0010
+}
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .no {
+  color: #66d9ef
+}
+
+.highlight .l,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .se,
+.highlight .il {
+  color: #ae81ff
+}
+
+.highlight .o,
+.highlight .p {
+  color: #f7f7f2
+}
+
+.highlight .m,
+.highlight .n,
+.highlight .nb,
+.highlight .ni,
+.highlight .nl,
+.highlight .nn,
+.highlight .py,
+.highlight .nv,
+.highlight .w,
+.highlight .bp,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: #a4d043
+}
+
+.highlight .kn,
+.highlight .nt,
+.highlight .ow {
+  color: #f92672
+}
+
+.highlight .ge {
+  font-style: italic
+}
+
+.highlight .gs {
+  font-weight: bold
+}
+
+.highlight .ld,
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss {
+  color: #e6db74
+}
+
+.highlight .na,
+.highlight .nc,
+.highlight .nd,
+.highlight .ne,
+.highlight .nf,
+.highlight .nx {
+  color: #a6e22e
+}
+
+// author (ref. https://github.com/willianjusten/will-jekyll-template/blob/e2f14dc24485ac7af90c58bf29ddf1e4d032e517/assets/css/main.css)
+
+.author {
+  background: #f2f2f2;
+  display: table;
+  width: 100%;
+  padding: 2.5rem 0;
+  margin: 2.5rem 0;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .author {
+      padding: 3.125rem 0
+  }
+}
+
+.author .details {
+  margin: auto;
+  max-width: 50rem;
+  padding: 0 1.25rem;
+}
+
+@media only screen and (max-width:37.5rem) {
+  .author .details {
+      text-align: center
+  }
+}
+
+.author img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .author img {
+      float: left;
+      margin-right: 3.125rem
+  }
+}
+
+.author .def {
+  color: #808080;
+  font-size: 1.125rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: .625rem;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .author .def {
+      margin: 0;
+      padding-top: 1.563rem
+  }
+}
+
+.author .name {
+  margin: 0;
+}
+
+.author .name a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.875rem;
+}
+
+.author .name a:hover {
+  color: #0562dc
+}
+
+@media only screen and (min-width:37.5rem) {
+  .author .name a {
+      font-size: 2.813rem
+  }
+}
+
+.author .desc {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: .625rem;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width:37.5rem) {
+  .author .desc {
+      font-size: 1.25rem
+  }
+}
+
+.author .email {
+  text-decoration: none;
+  color: #0562dc
+}

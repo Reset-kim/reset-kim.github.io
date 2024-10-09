@@ -1,0 +1,21 @@
+<div>
+    <h1> 📝 Posts </h1>
+    <div class="row">
+        <div class="col">
+            <table>
+                <tbody>
+                {% for post in site.posts %}
+                    <tr>
+                        <td>
+                            <strong>{{ post.date | date: "%Y" }}</strong>
+                        </td>
+                        <td>
+                            <a href="{{ post.url }}">[{{ post.language }}] {{ post.title }}</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
